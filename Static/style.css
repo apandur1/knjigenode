@@ -1,0 +1,82 @@
+#tabela {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+td, th {
+    border: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+th {
+    background-color: beige;
+}
+
+td {
+    background-color: azure;
+}
+
+form {
+    width: 40px;
+    position: absolute;
+    left: 43%
+}
+
+#formaPisac {
+    width: 80px;
+    position: absolute;
+    left: 43%;
+    top: 20%;
+}
+
+#radioDiv {
+    display: inline;
+}
+
+#buttonDiv {
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top: 14%;
+}
+
+#dugmePisac {
+    position: absolute;
+    left: 43%;
+    top: 35%;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+select {
+    width: 180px;
+}
+
+#nobel {
+    font-weight: bold;
+}
+
+#poljeNaziv {
+
+}
+
+tr:hover {
+    border: 2px solid black;
+}
+
+#nevidljivo {
+    display: none;
+}
+
+#vidljivo {
+    display: block;
+}
+

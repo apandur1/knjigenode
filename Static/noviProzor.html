@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Ajaxi/ajaxNoviProzor.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Tebra hoće li biti update ili delete?
+    <br>
+    <div id="nevidljivo">
+        <p>Evo brt unesi knjigu</p>
+        <input type="text" placeholder="Naziv knjige" id="inputNaziv">
+        <select id="select"></select>
+        <input type="text" placeholder="Godina izdavanja" id="inputGodina">
+    </div>
+    <br>
+    <button id="buttonUpdate" onclick="updateFunkcija()">Update</button>
+    <button id="buttonDelete" onclick="deleteFunkcija()">Delete</button>
+    <button id="buttonCancel" onclick="cancelFunkcija">Cancel</button>
+</body>
+</html>
